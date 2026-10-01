@@ -5,7 +5,7 @@ import { Star, ArrowRight, Sparkles } from 'lucide-react';
 export default function LoveLetterStep({ letterContent, onNext, playClickSFX }) {
   const defaultLetter = {
     title: "happy birthday 🎂",
-    salutation: "halo,",
+    salutation: "haloo,",
     paragraphs: [
       "selamat ulang tahun ya. hari ini adalah tentang kamu, tentang bertambahnya satu tahun lagi dalam perjalanan hidupmu, tentang semua hal yang sudah kamu lewati sampai akhirnya bisa sampai di titik ini. semoga di usia yang baru ini, kamu selalu diberikan kesehatan, dikelilingi orang-orang baik, diberikan banyak alasan untuk tersenyum, dan dipermudah dalam setiap langkah yang sedang kamu jalani. semoga semua hal yang sedang kamu usahakan perlahan menemukan jalannya, dan semoga setiap doa yang kamu simpan diam-diam bisa menemukan jawabannya di waktu yang paling tepat.",
       "aku mungkin bukan lagi seseorang yang berjalan bersamamu seperti dulu, dan mungkin sekarang kita sudah memiliki cerita serta jalan masing-masing. tapi meskipun begitu, aku tetap ingin mengucapkan selamat untukmu di hari yang spesial ini. ada banyak hal yang pernah kita lewati, banyak cerita yang pernah kita bagi, banyak tawa, percakapan, dan kenangan yang mungkin akan tetap menjadi bagian kecil dari perjalanan hidup kita. aku tidak ingin mengingat semuanya dengan rasa sedih, justru aku ingin mengingatnya sebagai sesuatu yang pernah berarti dan pernah membuat kita bahagia pada masanya.",
