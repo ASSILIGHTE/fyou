@@ -4,16 +4,20 @@ import { Star, ArrowRight, Sparkles } from 'lucide-react';
 
 export default function LoveLetterStep({ letterContent, onNext, playClickSFX }) {
   const defaultLetter = {
-    title: "Happy Birthday 🎂",
-    salutation: "Halo,",
+    title: "happy birthday 🎂",
+    salutation: "halo,",
     paragraphs: [
-      "Selamat ulang tahun ya. Semoga di usiamu yang baru ini, kamu selalu diberikan kesehatan, kebahagiaan, dan kemudahan dalam meraih setiap impian serta cita-citamu.",
-      "Meski perjalanan dan cerita kita kini sudah berbeda, aku tetap tulus mendoakan yang terbaik untuk kehidupanmu ke depan. Terima kasih pernah menjadi bagian dari hidupku dan untuk kenangan baik yang pernah kita lewati.",
-      "Semoga hari spesialmu ini menyenangkan dan tahun ini membawa banyak kebaikan untukmu."
+      "selamat ulang tahun ya. hari ini adalah tentang kamu, tentang bertambahnya satu tahun lagi dalam perjalanan hidupmu, tentang semua hal yang sudah kamu lewati sampai akhirnya bisa sampai di titik ini. semoga di usia yang baru ini, kamu selalu diberikan kesehatan, dikelilingi orang-orang baik, diberikan banyak alasan untuk tersenyum, dan dipermudah dalam setiap langkah yang sedang kamu jalani. semoga semua hal yang sedang kamu usahakan perlahan menemukan jalannya, dan semoga setiap doa yang kamu simpan diam-diam bisa menemukan jawabannya di waktu yang paling tepat.",
+      "aku mungkin bukan lagi seseorang yang berjalan bersamamu seperti dulu, dan mungkin sekarang kita sudah memiliki cerita serta jalan masing-masing. tapi meskipun begitu, aku tetap ingin mengucapkan selamat untukmu di hari yang spesial ini. ada banyak hal yang pernah kita lewati, banyak cerita yang pernah kita bagi, banyak tawa, percakapan, dan kenangan yang mungkin akan tetap menjadi bagian kecil dari perjalanan hidup kita. aku tidak ingin mengingat semuanya dengan rasa sedih, justru aku ingin mengingatnya sebagai sesuatu yang pernah berarti dan pernah membuat kita bahagia pada masanya.",
+      "terima kasih karena pernah hadir dan menjadi bagian dari hidupku. terima kasih untuk waktu, perhatian, cerita, dan hal-hal kecil yang mungkin dulu terlihat sederhana, tapi ternyata memiliki tempat tersendiri dalam ingatan. mungkin tidak semua hal yang pernah kita harapkan bisa berjalan sesuai keinginan, dan tidak semua cerita harus berakhir dengan cara yang kita bayangkan. tapi aku percaya, setiap pertemuan selalu membawa sesuatu untuk dipelajari, dan setiap kenangan memiliki alasan mengapa ia pernah hadir.",
+      "di hari ulang tahunmu ini, aku tidak ingin meminta apa-apa. aku hanya ingin mendoakan semoga kamu benar-benar menemukan kebahagiaan yang kamu cari. semoga kamu bisa menjadi versi dirimu yang paling kamu banggakan, bisa mencapai hal-hal yang selama ini kamu impikan, dan tidak terlalu keras kepada dirimu sendiri ketika sesuatu belum berjalan sesuai rencana. kalau suatu hari kamu merasa lelah, semoga kamu selalu menemukan alasan untuk kembali berdiri dan melanjutkan perjalanan. kalau suatu hari kamu merasa sendirian, semoga kamu selalu dipertemukan dengan orang-orang yang tulus menghargai dan menyayangimu.",
+      "semoga tahun ini menjadi awal dari banyak hal baik dalam hidupmu. semoga ada lebih banyak hari yang membuatmu tersenyum tanpa alasan, lebih banyak kesempatan untuk mencoba hal baru, lebih banyak keberanian untuk mengejar apa yang kamu inginkan, dan lebih banyak ketenangan setelah semua hal yang pernah membuatmu lelah. semoga apa pun yang terjadi setelah hari ini, kamu tetap bisa berjalan dengan hati yang tenang dan percaya bahwa masih banyak hal indah yang menunggumu di depan sana.",
+      "sekali lagi, selamat ulang tahun. semoga panjang umur, sehat selalu, dimudahkan dalam segala urusan, dilancarkan rezekinya, dan semoga semua harapan baik yang kamu punya perlahan menjadi kenyataan. mungkin aku tidak lagi menjadi bagian dari hari-harimu seperti dulu, tapi dari jauh aku tetap berharap semoga hidup memperlakukanmu dengan baik. jaga dirimu, jangan lupa bahagia, dan semoga langkahmu ke depan selalu membawa kamu menuju tempat yang memang pantas untuk kamu tuju. selamat bertambah usia, semoga tahun ini menjadi salah satu tahun terbaik dalam hidupmu. 🤍"
     ],
-    closing: "Salam hangat,",
-    sender: "Dari seseorang yang selalu mendoakan yang terbaik ✨"
+    closing: "salam hangat,",
+    sender: "dari seseorang yang selalu mendoakan yang terbaik ✨"
   };
+}
 
   const letter = letterContent || defaultLetter;
 
