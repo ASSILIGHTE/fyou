@@ -8,7 +8,7 @@ export default function ChibiStep({ onNext, playClickSFX }) {
 
   const speeches = [
     "Hi! 👋",
-    "Selamat ulang tahun! Ada pesan ucapan di hari spesialmu. ✨"
+    "selamattt ulangg tahunnn bagastian namzarel wicaksono!!! ada pesan ucapannn untuk pria senyum maniss di harii sepesialmuu ✨"
   ];
 
   // Auto transition speech bubble after 2.2 seconds
